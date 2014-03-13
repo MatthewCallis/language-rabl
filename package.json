@@ -1,6 +1,6 @@
 {
   "name": "language-rabl",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Syntax highlighter for RABL.",
   "repository": "https://github.com/MatthewCallis/language-rabl",
   "license": "MIT",
