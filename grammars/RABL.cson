@@ -1,0 +1,17 @@
+'fileTypes': ['rabl']
+'name': 'RABL'
+'patterns': [
+  {
+    'match': 'object|attributes|collection|attribute|lambda|do|end|unless|child|glue|node|extends|cache'
+    'name': 'keyword.source.rabl'
+  }
+  {
+    'match': "@{1,2}[^\\.\\s\\(\\[=@]+\\b"
+    'name': 'variable.source.rabl'
+  }
+  {
+    'match': "\\:[^\\.\\s=]+\\b"
+    'name': 'string.source.rabl'
+  }
+]
+'scopeName': 'source.rabl'
