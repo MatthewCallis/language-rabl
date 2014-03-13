@@ -2,16 +2,11 @@
 'name': 'RABL'
 'patterns': [
   {
-    'match': 'object|attributes|collection|attribute|lambda|do|end|unless|child|glue|node|extends|cache'
+    'match': 'object|attributes|collection|attribute|child|glue|node|extends|cache'
     'name': 'keyword.source.rabl'
   }
   {
-    'match': "@{1,2}[^\\.\\s\\(\\[=@]+\\b"
-    'name': 'variable.source.rabl'
-  }
-  {
-    'match': "\\:[^\\.\\s=]+\\b"
-    'name': 'string.source.rabl'
+    'include': 'source.ruby'
   }
 ]
-'scopeName': 'source.rabl'
+'scopeName': 'source.ruby.rabl'
